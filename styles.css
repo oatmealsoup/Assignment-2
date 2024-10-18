@@ -1,0 +1,36 @@
+html, body {
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+	margin: 20px;
+}
+
+input[type="text"] {
+	border: 1px solid black;
+    border-radius: 5px;
+	padding: 10px;
+}
+
+
+button { 
+	border: 1px solid black;
+    border-radius: 5px; 
+	background-color: Black;	
+	color: white;
+	padding: 10px;
+	margin: 20px;
+}
+
+button:hover {
+    background-color: grey;   
+}
+
+#display-name {
+    color: black;
+	font-size: 30px;
+    font-weight: bold;
+}
